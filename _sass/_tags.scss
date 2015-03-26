@@ -1,0 +1,12 @@
+.project-tags {
+    list-style-type: none;
+    li {
+        float: left;
+        border: 1px solid $bg-light-grey;
+        padding: .3em .5em;
+        color: $medium-grey;
+        margin-right: .5em;
+        font-size: $detail-type-size;
+        margin-bottom: .5em;
+    }
+}
