@@ -9,19 +9,23 @@ $red: #ed1c24;
 
 // Typography
 $font-whitney: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
-$font-mercury: "Mercury SSm A", "Mercury SSm B", "Georgia", serif;
+$font-mercury: "Whitney SSm A", "Whitney SSm B", "Helvetica", "Arial", sans-serif;
+$em-base: 16px;
+$h1-type-size: rem(40);
+$h2-type-size: rem(16);
+$h3-type-size: rem(16);
+$lead-in-type-size: rem(20);
+$body-type-size: rem(16);
+$detail-type-size: rem(12);
 
-$h1-type-size: em(40);
-$h2-type-size: em(14);
-$h3-type-size: em(16);
-$body-type-size: em(14);
-$detail-type-size: em(12);
+$default-line-height: 1.7em;
+$heading-line-height: 1.2em;
 
 // Grid Settings
 $column: 90px;
 $gutter: 30px;
 $grid-columns: 12;
-$max-width: em(900);
+$max-width: rem(900);
 $visual-grid: false;
 
 // Media Queries

@@ -5,7 +5,7 @@
 
     padding: {
         top: 4em;
-        bottom: 6em;
+        bottom: 4em;
     }
     @include media($mobile) {
         padding-bottom: 2em;
@@ -48,8 +48,8 @@
             p {
                 font-family: $font-mercury;
                 margin-bottom: 1.5em;
-                font-size: em(18);
-                line-height: 1.65em;
+                font-size: $lead-in-type-size;
+                line-height: $default-line-height;
                 font-weight: 300;
             }
             em {
@@ -84,7 +84,7 @@
         @include clearfix();
         @include main-padding();
         margin: {
-            top: 8em;
+            top: 6em;
         }
         .portfolio-item__content {
             @include span-columns(5);
@@ -141,8 +141,8 @@
     overflow: auto;
     width: 100%;
     padding: {
-        top: 2em;
-        bottom: 2em;
+        top: 1em;
+        bottom: 1em;
     }
 
     @include media($mobile) {
@@ -157,18 +157,16 @@
         @include flex(0 1 auto);
         color: rgba($bg-medium-grey, 1);
         font-family: $font-mercury;
-        font-weight: 300;
-        font-style: italic;
-        font-size: em(28);
-        margin-right: 2em;
+        font-size: $lead-in-type-size;
+        margin-right: 1.5em;
         text-transform: lowercase;
         text-decoration: none;
 
         @include media($tablet) {
-            font-size: em(22);
+            font-size: rem(22);
         }
         @include media($mobile) {
-            font-size: em(18);
+            font-size: rem(18);
         }
 
         &:hover {
