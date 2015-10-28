@@ -16,7 +16,7 @@
         }
     }
     .copyright {
-        @include span-columns(3);
+        @include span-columns(2);
         @include media($tablet) {
             @include span-columns(12);
         }
@@ -24,7 +24,7 @@
         color: $medium-grey;
     }
     .colophon {
-        @include span-columns(9);
+        @include span-columns(10);
         @include media($tablet) {
             padding-top: 1em;
             @include span-columns(12);

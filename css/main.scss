@@ -1,5 +1,4 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
 //Non-display Styles
@@ -23,4 +22,5 @@
 @import 'home';
 @import 'about';
 @import 'project';
+@import 'blog';
 @import 'post';

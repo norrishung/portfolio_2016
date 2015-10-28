@@ -28,7 +28,7 @@
         @include media($tablet) {
             @include span-columns(9);
         }
-        h1 {
+        .title {
             @include span-columns(4 of 8);
 
             @include media($tablet) {
@@ -95,6 +95,7 @@
             } 
         }
         .portfolio-item__title {
+            margin-top: 0;
             @include h3();
             a {
                 color: $dark-grey;
@@ -108,10 +109,10 @@
         }
         .portfolio-item__image {
             @include span-columns(6);
-            @include transition(transform .3s $ease-out-back);
+            @include transition(transform .1s $ease-out-back);
             @include transform(scale(1));
             &:hover {
-                @include transform(scale(1.1));
+                @include transform(scale(1.05));
             }
             @include media($mobile) {
                 @include span-columns(12);

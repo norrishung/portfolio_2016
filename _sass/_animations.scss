@@ -17,20 +17,3 @@
         @include transform(translate3D(0, 0, 0));
     }
 }
-
-.css-animation {
-    .home {
-        .intro {
-            @include animation(fadeInFromBottom 1s ease-out);
-            @include animation-iteration-count(1);
-        }
-
-        .logo, .main-nav, .portfolio, h1, .site-footer {
-            opacity: 0;
-            @include animation(fadeIn 1.5s ease-out);
-            @include animation-iteration-count(1);
-            @include animation-delay(1.5s);
-            @include animation-fill-mode(forwards);
-        }
-    }
-}

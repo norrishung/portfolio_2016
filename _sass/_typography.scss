@@ -19,10 +19,7 @@
     font-family: $font-whitney;
     font-size: $h2-type-size;
     line-height: 1.2em;
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    font-weight: 500;
-    margin-top: 2.5em;
+    font-weight: 600;
     margin-bottom: 1.5em;
 }
 
@@ -42,6 +39,17 @@
     line-height: 1.5em;
 }
 
+h1 {
+    @include h1();
+}
+
+h2 {
+    @include h2();
+}
+
+h3 {
+    @include h3();
+}
 
 p {
     @include body-type();
@@ -51,6 +59,11 @@ p {
 a {
     color: inherit;
     text-decoration: underline;
+}
+
+blockquote {
+    padding: 0 1em;
+    font-style: italic;
 }
 
 article {

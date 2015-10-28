@@ -1,0 +1,35 @@
+.blog {
+    @include outer-container();
+    @include main-padding();
+    @include clearfix();
+
+    header {
+        @include span-columns(8);
+        @include shift(2);
+        @include media($tablet) {
+            @include span-columns(12);
+            @include shift(0);
+        }
+
+        h1 {
+            @include h1();
+        }
+        margin-bottom: 2em;
+    }
+
+    ul {
+        list-style-type: none;
+        @include span-columns(8);
+        @include shift(2);
+        @include media($tablet) {
+            @include span-columns(12);
+            @include shift(0);
+        }
+        li {
+            margin-bottom: 4em;
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
