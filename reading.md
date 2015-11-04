@@ -14,6 +14,7 @@ I continually try to reshape what design means to me through reading - whether t
   - [The Visual Display of Quantitative Information](http://www.edwardtufte.com/tufte/books_vdqi) by Edward Tufte
   - [Thinking with Type](http://www.thinkingwithtype.com/) by Ella Lupton
   - [Design is a Job](http://abookapart.com/products/design-is-a-job) by Mike Monteiro
+  - [Designing Interactions](https://mitpress.mit.edu/books/designing-interactions) by Bill Moggridge
 
 ## Websites
   - [Designer News](https://news.layervault.com/)
@@ -21,6 +22,7 @@ I continually try to reshape what design means to me through reading - whether t
   - [A List Apart](http://alistapart.com/)
   - [CSS Tricks](https://css-tricks.com/)
   - [Smashing Magazine](http://www.smashingmagazine.com/)
+  - [The Year of the Looking Glass](https://medium.com/the-year-of-the-looking-glass)
 
 ## Videos
 

@@ -12,7 +12,7 @@ github_username:  norrishung
 gems: [bourbon, neat, mini_magick]
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 
 #Responsive Image Settings
 picture:
