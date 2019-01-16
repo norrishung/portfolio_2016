@@ -6,42 +6,42 @@ layout: home
   <header class="main-header">
     <div class="logo"></div>
     <section class="header-content">
-      <p class="title">norris hung, <i>designer &amp; developer</i></p>
+      <p class="title">norris hung, <i>product designer</i></p>
       <nav class="main-nav">
         <a href="{{ '/writing' | prepend: site.baseurl }}">Writing</a>
         <a href="{{ '/reading' | prepend: site.baseurl }}">Reading</a>
         <a href="{{ '/about' | prepend: site.baseurl }}">About</a>
       </nav>
       <section class="intro">
-        <p><strong>My name is Norris and design is how I choose to make the world a better place.</strong> I strive to make better products and content through simplifying and humanizing. I have a special enthuasiasm for design thinking, typography, information design, and web development.</p> 
+        <p><strong>My name is Norris and design is how I choose to make the world a better place.</strong> I strive to elegantly shape materials into products and services that better fit the human condition. I do this by developing a deep understanding of people through research and developing a deep appreciation of materials through practice.</p> 
       </section>
     </section>
   </header>
   <section class="portfolio">
     <nav class="portfolio__nav">
-      <a href="#interface">Interface</a>
-      <a href="#content">Content</a>
-      <a href="#data">Data</a>
-      <a href="#identity">Identity</a>
+      <a href="#cfa">CfA</a>
+      <a href="#inkling">Inkling</a>
+      <a href="#brown/risd">Brown/RISD</a>
+      <a href="#personal">Personal</a>
     </nav>
     <section class="portfolio__section-container">
-      <section class="portfolio__section--interfaces">
-        {% for post in site.categories.interface %}
+      <section class="portfolio__section--cfa">
+        {% for post in site.categories.cfa %}
           {% include portfolio_item.html %}
         {% endfor %}
       </section>
-      <section class="portfolio__section--web">
-        {% for post in site.categories.content %}
+      <section class="portfolio__section--inkling">
+        {% for post in site.categories.inkling %}
           {% include portfolio_item.html %}
         {% endfor %}
       </section>
-      <section class="portfolio__section--data">
-        {% for post in site.categories.data %}
+      <section class="portfolio__section--college">
+        {% for post in site.categories.college %}
           {% include portfolio_item.html %}
         {% endfor %}
       </section>
-      <section class="portfolio__section--identities">
-        {% for post in site.categories.identity %}
+      <section class="portfolio__section--personal">
+        {% for post in site.categories.personal %}
           {% include portfolio_item.html %}
         {% endfor %}
       </section>

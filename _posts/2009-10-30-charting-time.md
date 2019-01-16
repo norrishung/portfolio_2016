@@ -2,7 +2,7 @@
 layout: project
 title:  "Charting Time"
 date:   2009-03-18 14:50:30
-categories: data
+categories: college
 description: "In the final project of Information Design at RISD with Krzysztof Lenk, we were asked to keep track of how we used our time each day for roughly three months. The goal of the project was to present the information in a meaningful way – however we decided that would be."
 tags:
   - Visual Design

@@ -2,7 +2,7 @@
 layout: project
 title:  "Visualizing Proteomic Data"
 date:   2009-03-18 14:50:30
-categories: data
+categories: college
 description: "My research project at Brown University involves trying to dissect the inner-workings of human t-cells – the shepherds of our immune system. In addition to my role as a researcher in lab, I also helped develop a visual system to analyze and present our data."
 tags:
   - Visual Design

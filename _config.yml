@@ -9,7 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.norrishung.com" # the base hostname & protocol for your site
 twitter_username: norrishung
 github_username:  norrishung
-gems: [bourbon, neat, mini_magick]
+plugins: [bourbon, neat, mini_magick]
 
 # Build settings
 markdown: redcarpet

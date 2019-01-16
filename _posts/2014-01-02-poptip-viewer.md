@@ -2,7 +2,7 @@
 layout: project
 title:  "Poptip Viewer"
 date:   2014-1-02 14:50:30
-categories: interface
+categories: inkling
 description: "Poptip viewer is a tool that visualized every poptip (think interactive footnotes) in the book next to the term that it was associated with. This transformed a task that took an entire day to sometime that took less than an hour. This feature was so useful that it was eventually incorporated into Habitat, Inkling’s publishing software."
 tags:
     - UX/UI Design

@@ -2,7 +2,8 @@
 layout: project
 title:  "Jazz Brewing"
 date:   2015-03-18 14:50:30
-categories: interface
+published: false
+categories: personal
 description: "As an avid homebrewer frustrated with the quality of outdated brewing software out there, I set out to reinvent what modern software for brewers could look be."
 tags:
     - UX/UI Design

@@ -2,7 +2,7 @@
 layout: project
 title:  "Feats of Strength Brewing"
 date:   2015-02-22 14:50:30
-categories: identity
+categories: personal
 description: "Branding and bottle label system for Feats of Strength Brewing"
 tags:
   - Visual Design

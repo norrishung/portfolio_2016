@@ -2,7 +2,7 @@
 layout: project
 title: "Chime Starter"
 date:   2015-10-29 14:50:30
-categories: content
+categories: cfa
 description: "At Code for America, we built a template for a new type of city government website based on service delivery."
 tags:
     - HTML5
