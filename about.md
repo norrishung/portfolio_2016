@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: 'about/'
-title: Nice to meet you!
+title: Nice to meet you.
 ---
 
 My name is Norris and design is how I choose to <a href="http://www.designishistory.com/1960/first-things-first/">make the world a better place</a>. I strive to elegantly shape materials into products and services that better fit the human condition. I do this by developing a deep understanding of people through research and developing a deep appreciation of materials through practice.
